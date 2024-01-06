@@ -1,0 +1,8 @@
+def pos(l1):
+    l2=[]
+    for i in l1:
+        if i>0:
+            l2.append(i)
+    print(l2)
+l1=[1,2,-17,90,-7,-89]
+pos(l1)
